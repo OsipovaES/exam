@@ -1,2 +1,13 @@
-@import 'base/base';
+@import 'abstracts/mixins';
+
 @import 'base/normalize';
+@import 'base/typography';
+
+@import 'components/buttons';
+
+@import 'layouts/header';
+@import 'layouts/navigation';
+@import 'layouts/main';
+@import 'layouts/forms';
+
+

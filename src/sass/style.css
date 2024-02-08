@@ -1,7 +1,3 @@
-h1 {
-  color: blueviolet;
-}
-
 /* ==========================================================================
    Normalize.scss settings
    ========================================================================== */
@@ -403,6 +399,181 @@ ul {
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  max-width: 136.6rem;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.btn-form {
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(255, 190, 190);
+}
+.btn-form:hover {
+  background-color: rgb(213, 254, 152);
+  transition: all 0.3s;
+}
+
+.header {
+  background-color: rgb(252, 251, 245);
+  box-shadow: 0 0 1rem rgba(67, 67, 67, 0.5);
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 2rem 4rem;
+}
+.header__link {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+.header__link_ico {
+  color: rgb(6, 2, 2);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+.header__link_ico:hover {
+  text-decoration: underline rgb(255, 101, 101) 0.3rem;
+  text-underline-offset: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 3rem;
+}
+.nav__link {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+  color: rgb(6, 2, 2);
+}
+.nav__link:hover {
+  text-decoration: underline rgb(255, 101, 101) 0.3rem;
+  text-underline-offset: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+.main__wrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+.main__text {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.main__list {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.main__image {
+  border-radius: 1rem;
+  width: 50%;
+  height: auto;
+}
+
+.forms {
+  background-color: rgb(252, 251, 245);
+  padding: 2rem;
+}
+.forms__wrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.forms__item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 60rem;
+  width: 100%;
+  gap: 1rem;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+.forms__input, .forms__select {
+  width: 100%;
+  border: none;
+  background-color: rgb(255, 227, 216);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+.forms__input:focus, .forms__select:focus {
+  outline: none;
+  border: 1px solid rgb(180, 180, 180);
+}
+.forms__text {
+  max-width: 110rem;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=style.css.map */

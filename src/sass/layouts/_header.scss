@@ -1,0 +1,23 @@
+.header {
+    background-color:rgb(252, 251, 245);
+    box-shadow: 0 0 1rem rgba(67, 67, 67, 0.5);
+    &__wrapper {
+        @include flex($justify: space-between);
+        padding: 2rem 4rem;
+    }
+    &__link {
+        @include flex();
+        gap: 2rem;
+        &_ico {
+            color: rgb(6, 2, 2);
+            text-decoration: none;
+            @include flex();
+            gap: 1rem;
+            &:hover {
+                text-decoration: underline rgb(255, 101, 101) 0.3rem;
+                text-underline-offset: 1rem;
+                transition: all .3s ease-out;
+            }
+        }
+    }
+}

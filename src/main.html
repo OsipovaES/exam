@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <title>BigBen</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__link"> 
+                <a class="logo" href="#"><img src="../src/images/logo.svg" alt=""></a>
+                <a class="header__link_ico" href="#"> <img src="../src/images/icons/location_2838912.png" alt="" width="20">г. Санкт-Петербург, Шкиперский проток 15</a>
+                <a class="header__link_ico" href="tel:+7-674-567-75-54"> <img src="./images/icons/telephone_126523.png" alt="" width="20">tel:+7-674-567-75-54</a>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li><a class="nav__link" href="#">Главная</a></li>
+                    <li><a class="nav__link" href="./schools.html">Школы</a></li>
+                    <li><a class="nav__link" href="./news.html">Новости</a></li>
+                    <li><a class="nav__link" href="./courses.html">Услуги</a></li>
+                    <li><a class="nav__link" href="./courses.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="wrapper main__wrapper">
+            <div class="main__content">
+                <h1>О нашей компании</h1>
+                <p class="main__text">Дошкольное образование играет ключевую роль в развитии ребенка, его умственных и творческих способностей. Именно поэтому выбор школы дошкольного образования становится ответственным шагом для каждого родителя. И сегодня мы хотим рассказать вам о преимуществах Школы дошкольного образования BigBen, которая станет идеальным выбором для вашего малыша.</p>
+                <h2>Мы гарантируем</h2>
+                <ul class="main__list">
+                    <li><span style="font-weight: 600;">Опыт и профессионализм: </span>BigBen - это команда опытных и талантливых педагогов, которые любят свою работу и умеют находить подход к каждому ребенку. Они используют инновационные методики и программы, чтобы обучение было интересным и эффективным для малышей.</li>
+                    <li><span style="font-weight: 600;">Индивидуальный подход: </span>В BigBen созданы все условия для того, чтобы каждый ребенок мог развиваться в своем темпе и направлении. Педагоги учитывают особенности и потребности каждого малыша, предлагая индивидуальный план обучения, который поможет раскрыть его таланты и способности.</li>
+                    <li><span style="font-weight: 600;">Разнообразие программ и курсов: </span>Школа дошкольного образования BigBen предлагает широкий спектр программ и курсов, которые помогут ребенку развить навыки чтения, письма, счета, а также творческие способности. Кроме того, в рамках обучения дети узнают много нового об окружающем мире и научатся общаться со сверстниками.</li>
+                </ul>
+            </div>
+            <img class="main__image" src="../src/images/main-banner.jpg" alt="Урок в школе фото">
+        </div>
+    </section>
+
+    <section class="forms">
+        <div class="wrapper forms__wrapper">
+            <h2>Запишитесь на пробное занятие</h2>
+            <p class="forms__text">В BigBen мы предлагаем широкий спектр программ и курсов, которые помогут вашему ребенку развиваться и расти в безопасной и дружественной обстановке. Мы бязательно подберем вам курс и поможем сделать правильный выбор! </p>
+            <form class="forms__item" action="/" method="POST">
+                <input class="forms__input" type="text" placeholder="Иванов Иван Иванович">
+                <input class="forms__input" type="email" placeholder="ivan@mail.ru">
+                <input class="forms__input" type="tel" placeholder="+8-911-384-78-32">
+                <button class="btn-form" type="submit">Отправить</button>
+            </form>
+            <h2>Закажите услугу</h2>
+            <p class="forms__text">Если вы уже определились с занятием, то можете заказать услугу, заполнив форму, мы свяжемся с вами в ближайшее время!</p>
+            <form class="forms__item" action="/" method="POST">
+                <input class="forms__input" type="text" placeholder="Иванов Иван Иванович">
+                <select class="forms__select">
+                    <option>Подготовка к школе</option>
+                    <option>Индивидуальный английский</option>
+                    <option>Творческий мастер-класс</option>
+                    <option>Психологическая консультация</option>
+                </select>
+                <input class="forms__input" type="email" placeholder="ivan@mail.ru">
+                <input class="forms__input" type="tel" placeholder="+8-911-384-78-32">
+                <input class="forms__input" type="date">
+                <button class="btn-form" type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="teachers">
+        <div class="wrapper teachers__wrapper">
+            <h1>Преподватели центра</h1>
+            <div class="teacher">
+                <article class="teacher__block">
+                    <img src="../src/images/teacher1.jpg" alt="Учитель английского" width="200">
+                    <h3>Орлова Ольга Николаевна</h3>
+                    <p>Учитель английского языка с опытом преподавания более 3 лет. Владеет методикой преподавания английского языка детям дошкольного возраста. Имеет высшее педагогическое образование и сертификаты курсов повышения квалификации.</p>
+                </article>
+                <article class="teacher__block">
+                    <img src="../src/images/teacher2.jpg" alt="Детский психолог" width="200">
+                    <h3>Павлова Елена Петровна</h3>
+                    <p>Педагог-психолог с опытом работы в дошкольных учреждениях более 7 лет. Имеет высшее психологическое образование и специализацию в области детской психологии.</p>
+                </article>
+                <article class="teacher__block">
+                    <img src="../src/images/teacher3.jpg" alt="Педагог по творчеству" width="200">
+                    <h3>Иванова Мария Ивановна</h3>
+                    <p>Педагог по творчеству с опытом работы более 5 лет. Проводит занятия по рисованию, лепке, аппликации и другим видам творчества. Имеет высшее художественное образование.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="wrapper news__wrapper">
+            <h1>Новости</h1>
+            <article class="news__item">
+                <img src="../src/images/program.jpg" alt="Уроки программирования для детей" width="200">
+                <p>Мы рады сообщить о новом кружке по программированию, который стартует в нашем центре. Этот курс предназначен для детей старшего дошкольного возраста и поможет им развить свои навыки в области информационных технологий.</p>
+                <span>Дата:</span>
+            </article>
+            <article class="news__item">
+                <img src="../src/images/pre-school.jpg" alt="Подготовка к школе" width="200">
+                <p>В нашем центре открывается курс “Подготовка к школе”, который поможет вашему ребенку успешно адаптироваться к новым условиям обучения. На занятиях дети научатся читать, писать, считать и решать задачи.</p>
+                <span>Дата:</span>
+            </article>
+            <article class="news__item">
+                <img src="../src/images/prize.jpeg" alt="Награждение педагога" width="200">
+                <p>Наша школа была награждена званием “Лучшее образовательное учреждение года” за высокий уровень образовательных услуг, профессионализм педагогов и индивидуальный подход к каждому ребенку. Эта награда стала результатом многолетней работы и стремления к совершенству в области дошкольного образования.</p>
+                <span>Дата:</span>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <a class="logo" href="#">
+                <img src="../src/images/logo.svg" alt="">
+            </a>
+            <div class="footer__navigation">
+                <h4 class="">Поиск по сайту</h4>
+                <ul class="">
+                    <li><a class="" href="#">Главная</a></li>
+                    <li><a class="" href="./schools.html">Наши школы</a></li>
+                    <li><a class="" href="./news.html">Новости</a></li>
+                    <li><a class="" href="./courses.html">Наши услуги</a></li>
+                    <li><a class="" href="./courses.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__navigation">
+                <h4 class="">Социальные сети</h4>
+                <ul class="">
+                    <li><img src="../src/images/instagram_733614.png" width="20" alt=""><a class="" href="#">Главная</a></li>
+                    <li><img src="" alt=""><a class="" href="#">Наши школы</a></li>
+                    <li><img src="" alt=""><a class="" href="#">Новости</a></li>
+                    <li><img src="" alt=""><a class="" href="#">Наши услуги</a></li>
+                    <li><img src="" alt=""><a class="" href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__navigation">
+                <h4 class="">Наши адреса</h4>
+                <ul class="">
+                    <li><a class="" href="#">Главная</a></li>
+                    <li><a class="" href="#">Наши школы</a></li>
+                    <li><a class="" href="#">Новости</a></li>
+                    <li><a class="" href="#">Наши услуги</a></li>
+                    <li><a class="" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
