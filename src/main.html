@@ -79,19 +79,19 @@
             <h1>Преподватели центра</h1>
             <div class="teacher">
                 <article class="teacher__block">
-                    <img src="../src/images/teacher1.jpg" alt="Учитель английского" width="200">
+                    <div class="teacher__item"><img class="teacher__image" src="../src/images/teacher1.jpg" alt="Учитель английского"></div>
                     <h3>Орлова Ольга Николаевна</h3>
-                    <p>Учитель английского языка с опытом преподавания более 3 лет. Владеет методикой преподавания английского языка детям дошкольного возраста. Имеет высшее педагогическое образование и сертификаты курсов повышения квалификации.</p>
+                    <p class="teacher__text">Учитель английского языка с опытом преподавания более 3 лет. Владеет методикой преподавания английского языка детям дошкольного возраста. Имеет высшее педагогическое образование и сертификаты курсов повышения квалификации.</p>
                 </article>
                 <article class="teacher__block">
-                    <img src="../src/images/teacher2.jpg" alt="Детский психолог" width="200">
+                    <div class="teacher__item"><img class="teacher__image" src="../src/images/teacher2.jpg" alt="Детский психолог"></div>
                     <h3>Павлова Елена Петровна</h3>
-                    <p>Педагог-психолог с опытом работы в дошкольных учреждениях более 7 лет. Имеет высшее психологическое образование и специализацию в области детской психологии.</p>
+                    <p class="teacher__text">Педагог-психолог с опытом работы в дошкольных учреждениях более 7 лет. Имеет высшее психологическое образование и специализацию в области детской психологии.</p>
                 </article>
                 <article class="teacher__block">
-                    <img src="../src/images/teacher3.jpg" alt="Педагог по творчеству" width="200">
+                    <div class="teacher__item"><img class="teacher__image" src="../src/images/teacher3.jpg" alt="Педагог по творчеству"></div>
                     <h3>Иванова Мария Ивановна</h3>
-                    <p>Педагог по творчеству с опытом работы более 5 лет. Проводит занятия по рисованию, лепке, аппликации и другим видам творчества. Имеет высшее художественное образование.</p>
+                    <p class="teacher__text">Педагог по творчеству с опытом работы более 5 лет. Проводит занятия по рисованию, лепке, аппликации и другим видам творчества. Имеет высшее художественное образование.</p>
                 </article>
             </div>
         </div>
@@ -101,56 +101,61 @@
         <div class="wrapper news__wrapper">
             <h1>Новости</h1>
             <article class="news__item">
-                <img src="../src/images/program.jpg" alt="Уроки программирования для детей" width="200">
-                <p>Мы рады сообщить о новом кружке по программированию, который стартует в нашем центре. Этот курс предназначен для детей старшего дошкольного возраста и поможет им развить свои навыки в области информационных технологий.</p>
-                <span>Дата:</span>
+                <img class="news__image" src="../src/images/program.jpg" alt="Уроки программирования для детей">
+                <p class="news__text">Мы рады сообщить о новом кружке по программированию, который стартует в нашем центре. Этот курс предназначен для детей старшего дошкольного возраста и поможет им развить свои навыки в области информационных технологий.
+                    <br>
+                    <span style="font-weight: 600;">Дата: 10.02.2024</span>
+                </p>
             </article>
             <article class="news__item">
-                <img src="../src/images/pre-school.jpg" alt="Подготовка к школе" width="200">
-                <p>В нашем центре открывается курс “Подготовка к школе”, который поможет вашему ребенку успешно адаптироваться к новым условиям обучения. На занятиях дети научатся читать, писать, считать и решать задачи.</p>
-                <span>Дата:</span>
+                <img class="news__image" src="../src/images/pre-school.jpg" alt="Подготовка к школе">
+                <p class="news__text">В нашем центре открывается курс “Подготовка к школе”, который поможет вашему ребенку успешно адаптироваться к новым условиям обучения. На занятиях дети научатся читать, писать, считать и решать задачи.
+                    <br>
+                    <span style="font-weight: 600;">Дата: 22.01.2024</span>
+                </p>
             </article>
             <article class="news__item">
-                <img src="../src/images/prize.jpeg" alt="Награждение педагога" width="200">
-                <p>Наша школа была награждена званием “Лучшее образовательное учреждение года” за высокий уровень образовательных услуг, профессионализм педагогов и индивидуальный подход к каждому ребенку. Эта награда стала результатом многолетней работы и стремления к совершенству в области дошкольного образования.</p>
-                <span>Дата:</span>
+                <img class="news__image" src="../src/images/prize.jpeg" alt="Награждение педагога">
+                <p class="news__text">Наша школа была награждена званием “Лучшее образовательное учреждение года” за высокий уровень образовательных услуг, профессионализм педагогов и индивидуальный подход к каждому ребенку. Эта награда стала результатом многолетней работы и стремления к совершенству в области дошкольного образования.
+                    <br>
+                    <span style="font-weight: 600;">Дата: 30.01.2024</span>
+                </p>
             </article>
         </div>
     </section>
 
     <footer class="footer">
         <div class="wrapper footer__wrapper">
-            <a class="logo" href="#">
+            <a class="footer__logo" href="#">
                 <img src="../src/images/logo.svg" alt="">
             </a>
             <div class="footer__navigation">
-                <h4 class="">Поиск по сайту</h4>
-                <ul class="">
-                    <li><a class="" href="#">Главная</a></li>
-                    <li><a class="" href="./schools.html">Наши школы</a></li>
-                    <li><a class="" href="./news.html">Новости</a></li>
-                    <li><a class="" href="./courses.html">Наши услуги</a></li>
-                    <li><a class="" href="./courses.html">Контакты</a></li>
+                <h4>Поиск по сайту</h4>
+                <ul class="footer-nav">
+                    <li><a class="footer-nav__link" href="#">Главная</a></li>
+                    <li><a class="footer-nav__link" href="./schools.html">Школы</a></li>
+                    <li><a class="footer-nav__link" href="./news.html">Новости</a></li>
+                    <li><a class="footer-nav__link" href="./courses.html">Услуги</a></li>
+                    <li><a class="footer-nav__link" href="./courses.html">Контакты</a></li>
                 </ul>
             </div>
             <div class="footer__navigation">
-                <h4 class="">Социальные сети</h4>
-                <ul class="">
-                    <li><img src="../src/images/instagram_733614.png" width="20" alt=""><a class="" href="#">Главная</a></li>
-                    <li><img src="" alt=""><a class="" href="#">Наши школы</a></li>
-                    <li><img src="" alt=""><a class="" href="#">Новости</a></li>
-                    <li><img src="" alt=""><a class="" href="#">Наши услуги</a></li>
-                    <li><img src="" alt=""><a class="" href="#">Контакты</a></li>
+                <h4>Социальные сети</h4>
+                <ul class="footer-nav">
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/vkontakte_2190437.png" width="20" alt="">ВКонтакте</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/odnoklassniki_3291683.png" width="20" alt="">Одноклассники</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/telegram_3536705.png" width="20" alt="">Телеграм</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/instagram_733614.png" width="20" alt="">Insragram</a></li>
                 </ul>
             </div>
             <div class="footer__navigation">
-                <h4 class="">Наши адреса</h4>
-                <ul class="">
-                    <li><a class="" href="#">Главная</a></li>
-                    <li><a class="" href="#">Наши школы</a></li>
-                    <li><a class="" href="#">Новости</a></li>
-                    <li><a class="" href="#">Наши услуги</a></li>
-                    <li><a class="" href="#">Контакты</a></li>
+                <h4>Наши адреса</h4>
+                <ul class="footer-nav">
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/icons/location_2838912.png" width="20" alt="">г. Санкт-Петербург Шкиперский</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/icons/location_2838912.png" width="20" alt="">г. Санкт-Петербург Шкиперский</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/icons/location_2838912.png" width="20" alt="">г. Санкт-Петербург Шкиперский</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/icons/location_2838912.png" width="20" alt="">г. Санкт-Петербург Шкиперский</a></li>
+                    <li><a class="footer-nav__link" href="#"><img src="../src/images/icons/location_2838912.png" width="20" alt="">г. Санкт-Петербург Шкиперский</a></li>
                 </ul>
             </div>
         </div>

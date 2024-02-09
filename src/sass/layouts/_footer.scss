@@ -1,0 +1,24 @@
+.footer {
+    padding: 1rem 3rem;
+    background-color:rgb(252, 251, 245);
+    &__wrapper {
+        @include flex($justify: space-between, $i-align: flex-start);
+    }
+    &__logo {
+        align-self: center;
+    }
+}
+
+.footer-nav {
+    @include flex($flex-dir: column, $i-align: flex-start);
+    &__link {
+        @include flex();
+        gap: 1rem;
+        text-decoration: none;
+        color: rgb(6, 2, 2);
+        &:hover {
+            color: rgb(255, 101, 101);
+            transition: all .3s ease-out;
+        }
+    }
+}

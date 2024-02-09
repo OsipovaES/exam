@@ -1,4 +1,4 @@
-@mixin flex($i-align: center, $t-align: left, $justify: center, $flex-dir: row, $flex-wrap: nowrap) {
+@mixin flex($i-align: center, $t-align: left, $justify: center, $flex-dir: row, $flex-wrap: wrap) {
     display: flex;
     align-items: $i-align;
     text-align: $t-align;

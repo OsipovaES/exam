@@ -1,4 +1,5 @@
 @import 'abstracts/mixins';
+@import 'abstracts/variables';
 
 @import 'base/normalize';
 @import 'base/typography';
@@ -9,5 +10,8 @@
 @import 'layouts/navigation';
 @import 'layouts/main';
 @import 'layouts/forms';
+@import 'layouts/teachers';
+@import 'layouts/news';
+@import 'layouts/footer';
 
 

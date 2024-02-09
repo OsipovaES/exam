@@ -1,6 +1,6 @@
 .main {
     &__wrapper {
-        @include flex();
+        @include flex($flex-wrap: nowrap);
         gap: 1rem;
     }
     &__text {
