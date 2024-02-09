@@ -2,7 +2,7 @@
     @include flex();
     gap: 3rem;
     &__link {
-        @include font($size: 2rem, $height: 160%);
+        @include font($size: 1.7rem, $weight:600, $height: 160%); 
         text-decoration: none;
         color: rgb(6, 2, 2);
         &:hover {

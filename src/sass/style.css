@@ -474,6 +474,10 @@ h4 {
 }
 .header__link_ico {
   color: rgb(6, 2, 2);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -499,9 +503,9 @@ h4 {
   gap: 3rem;
 }
 .nav__link {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 160%;
   text-decoration: none;
   color: rgb(6, 2, 2);
@@ -629,6 +633,7 @@ h4 {
   max-width: 20rem;
   max-height: 25rem;
   border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(255, 140, 140);
 }
 .teacher__text {
   margin-bottom: auto;
@@ -707,6 +712,58 @@ h4 {
 .footer-nav__link:hover {
   color: rgb(255, 101, 101);
   transition: all 0.3s ease-out;
+}
+
+.schools {
+  padding: 4rem;
+}
+.schools__wrapper {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.schools__block {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 60rem;
+  gap: 2rem;
+}
+.schools__image {
+  border-radius: 1rem;
+  max-width: 50rem;
+  width: 100%;
+  max-height: 29rem;
+}
+.schools__list {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.schools__data {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.schools__text {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: center;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

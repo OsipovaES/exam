@@ -1,0 +1,30 @@
+.schools {
+    padding: 4rem;
+    &__wrapper {
+        @include flex($i-align: flex-start);
+        gap: 4rem;
+    }
+    &__block{
+        @include flex($flex-dir: column);
+        max-width: 60rem;
+        gap: 2rem;
+    }
+    &__image{
+        border-radius: 1rem;
+        max-width: 50rem;
+        width: 100%;
+        max-height: 29rem;
+    }
+    &__list{
+        @include font($size: 1.8rem, $weight:600, $height: 140%); 
+    }
+    &__data{
+        @include flex ($justify: flex-start);
+        gap: 1rem;
+    }
+    &__text{
+        @include font($size: 1.8rem, $height: 160%);
+        text-align: center;
+        margin: 0; 
+    }
+}
