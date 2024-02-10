@@ -1,6 +1,6 @@
 .footer {
     padding: 1rem 3rem;
-    background-color:rgb(252, 251, 245);
+    background-color: $color-light;
     &__wrapper {
         @include flex($justify: space-between, $i-align: flex-start);
     }
@@ -15,9 +15,9 @@
         @include flex();
         gap: 1rem;
         text-decoration: none;
-        color: rgb(6, 2, 2);
+        color: $color-text;
         &:hover {
-            color: rgb(255, 101, 101);
+            color: $color-secondary;
             transition: all .3s ease-out;
         }
     }

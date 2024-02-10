@@ -1,5 +1,5 @@
 .forms {
-    background-color:rgb(252, 251, 245);
+    background-color: $color-light;
     padding: 2rem;
     &__wrapper {
         @include flex($flex-dir: column);
@@ -15,7 +15,7 @@
     &__input, &__select {
         width: 100%;
         border: none;
-        background-color: rgb(255, 227, 216);
+        background-color: $color-button-primary;
         padding: 1rem 2rem;
         border-radius: 0.5rem;
         &:focus {

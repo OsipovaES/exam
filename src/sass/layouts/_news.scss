@@ -6,7 +6,7 @@
     }
     &__item {
         @include flex($flex-wrap: nowrap);
-        background-color: rgb(255, 237, 231);
+        background-color: $color-card;
         border-radius: 1rem;
         padding: 1rem;
         gap: 2rem;

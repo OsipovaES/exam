@@ -7,7 +7,7 @@
     }
     &__item {
         @include flex($flex-dir: column, $justify: flex-start);
-        background-color:rgb(252, 251, 245);
+        background-color: $color-light;
         border-radius: 1rem;
         padding: 4rem;
         gap: 2rem;

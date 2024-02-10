@@ -1,5 +1,5 @@
 .header {
-    background-color:rgb(252, 251, 245);
+    background-color: $color-light;
     box-shadow: 0 0 1rem rgba(67, 67, 67, 0.5);
     &__wrapper {
         @include flex($justify: space-between);
@@ -15,7 +15,7 @@
             @include flex();
             gap: 1rem;
             &:hover {
-                text-decoration: underline rgb(255, 101, 101) 0.3rem;
+                text-decoration: underline $color-secondary 0.3rem;
                 text-underline-offset: 1rem;
                 transition: all .3s ease-out;
             }

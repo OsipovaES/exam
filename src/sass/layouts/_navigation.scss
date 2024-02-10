@@ -4,9 +4,9 @@
     &__link {
         @include font($size: 1.7rem, $weight:600, $height: 160%); 
         text-decoration: none;
-        color: rgb(6, 2, 2);
+        color: $color-text;
         &:hover {
-            text-decoration: underline rgb(255, 101, 101) 0.3rem;
+            text-decoration: underline $color-secondary 0.3rem;
             text-underline-offset: 1rem;
             transition: all .3s ease-out;
         }
