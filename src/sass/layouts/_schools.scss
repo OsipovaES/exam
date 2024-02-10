@@ -1,5 +1,5 @@
 .schools {
-    padding: 4rem;
+    padding: 4rem 2rem;
     &__wrapper {
         @include flex($i-align: flex-start);
         gap: 4rem;
@@ -24,7 +24,7 @@
     }
     &__text{
         @include font($size: 1.8rem, $height: 160%);
-        text-align: center;
+        text-align: justify;
         margin: 0; 
     }
 }

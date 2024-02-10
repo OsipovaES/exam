@@ -1,8 +1,9 @@
-.btn-form {
+.btn {
     padding: 1rem 3rem;
     border-radius: 1rem;
     border: none;
     background-color: rgb(255, 190, 190);
+    margin-top: auto;
     &:hover {
         background-color: rgb(213, 254, 152);
         transition: all .3s;
