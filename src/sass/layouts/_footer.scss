@@ -3,6 +3,9 @@
     background-color: $color-light;
     &__wrapper {
         @include flex($justify: space-between, $i-align: flex-start);
+        @include media-mobile {
+            display: block;
+        }
     }
     &__logo {
         align-self: center;

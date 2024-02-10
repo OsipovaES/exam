@@ -12,12 +12,15 @@
     gap: 3rem;
     &__block {
         @include flex($flex-dir: column);
-        background-color: $color-light;
+        background-color: $color-primary;
         padding: 2rem;
         border-radius: 1rem;
         height: 53rem; 
         max-width: 40rem;
         width: 100%;
+        @include media-tablet {
+            height: auto;
+        }
     }
     &__item {
         max-width: 20rem;
@@ -32,6 +35,9 @@
     &__text {
         margin-bottom: auto;
         text-align: justify;
+        @include media-mobile {
+            @include font($size: 1.5rem, $height: 150%);
+        }
     }
 }
 

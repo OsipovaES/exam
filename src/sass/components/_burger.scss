@@ -1,0 +1,30 @@
+.burger:checked + .burger__label {
+    transform: rotate(90deg);
+  }
+  
+  .burger__label {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .burger__line {
+    display: block;
+    background-color: #111;
+    width: 16px;
+    height: 2px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .burger__label {
+      display: flex;
+      z-index: 20;
+    }
+  
+    .burger:checked ~ .nav {
+      right: 0;
+    }
+
+}

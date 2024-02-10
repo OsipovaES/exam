@@ -17,12 +17,27 @@ body {
 
 h1 {
     @include font($size: 3rem, $weight:600, $height: 160%);
+    @include media-mobile {
+        @include font($size: 2.5rem, $weight:600, $height: 160%);
+    }
 }
 
 h2 {
     @include font($size: 2.5rem, $weight:600, $height: 160%);
+    @include media-mobile {
+        @include font($size: 2rem, $weight:600, $height: 160%);
+    }
+}
+
+h3 {
+    @include media-mobile {
+        @include font($size: 1.8rem, $weight:600, $height: 160%);
+    }
 }
 
 h4 {
     @include font($size: 1.8rem, $weight:600, $height: 160%); 
+    @include media-mobile {
+        @include font($size: 1.6rem, $weight:600, $height: 160%);
+    }
 }

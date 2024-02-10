@@ -1,10 +1,17 @@
 .main {
     &__wrapper {
         @include flex($flex-wrap: nowrap);
+        padding: 3rem;
         gap: 1rem;
+        @include media-tablet {
+            @include flex($flex-wrap: nowrap, $flex-dir:column); 
+        }
     }
     &__text {
         @include font($size: 1.8rem, $height: 150%);
+        @include media-mobile {
+            @include font($size: 1.5rem, $height: 150%);
+        }
     }
     &__list {
         @include font($size: 1.5rem, $height: 150%);
@@ -13,5 +20,8 @@
         border-radius: 1rem;
         width: 50%;
         height: auto;
+        @include media-tablet {
+            width: 90%;
+        }
     }
 }

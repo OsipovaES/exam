@@ -5,6 +5,13 @@
         @include flex($justify: space-between);
         padding: 2rem 4rem;
     }
+    &__link-contact {
+        @include flex($flex-dir: column, $i-align: flex-start);
+        row-gap: 2rem;
+        @include media-tablet {
+            display: none;
+        }
+    }
     &__link {
         @include flex();
         gap: 2rem;
