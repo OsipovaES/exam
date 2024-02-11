@@ -10,9 +10,30 @@
             text-underline-offset: 1rem;
             transition: all .3s ease-out;
         }
+        @include media-tablet {
+            z-index: inherit;
+        }
     }
 
     @include media-tablet {
-        display: none;
+        position: relative;
+        margin: 0;
+        @include flex($flex-dir: column);
+        background-color: $color-light;
+        padding: 0 4rem;
+        gap: 2rem;
+        height: 100%;
+        z-index: inherit;
     }
 }
+
+.header__nav {
+    @include media-tablet {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -20rem;
+        height: 100vh;
+        z-index: 10;
+    }
+} 
