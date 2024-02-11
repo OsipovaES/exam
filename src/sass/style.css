@@ -488,8 +488,8 @@ h4 {
   display: none;
   flex-direction: column;
   gap: 4px;
-  cursor: pointer;
   transition: 0.3s;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .burger__label {
@@ -511,11 +511,13 @@ h4 {
 
 .burger:checked ~ .header__nav {
   right: 0;
+  display: inline;
 }
 
 .header {
   background-color: rgb(252, 251, 245);
   box-shadow: 0 0 1rem rgba(67, 67, 67, 0.5);
+  position: relative;
 }
 .header__wrapper {
   display: flex;
@@ -599,6 +601,7 @@ h4 {
 }
 @media (max-width: 768px) {
   .nav {
+    overflow: hidden;
     position: relative;
     margin: 0;
     display: flex;
@@ -620,9 +623,9 @@ h4 {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: -20rem;
     height: 100vh;
     z-index: 10;
+    display: none;
   }
 }
 

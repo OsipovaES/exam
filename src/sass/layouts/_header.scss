@@ -1,6 +1,7 @@
 .header {
     background-color: $color-light;
     box-shadow: 0 0 1rem rgba(67, 67, 67, 0.5);
+    position: relative;
     &__wrapper {
         @include flex($justify: space-between);
         padding: 2rem 4rem;

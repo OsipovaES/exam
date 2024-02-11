@@ -16,6 +16,7 @@
     }
 
     @include media-tablet {
+        overflow: hidden;
         position: relative;
         margin: 0;
         @include flex($flex-dir: column);
@@ -32,8 +33,8 @@
         position: absolute;
         top: 0;
         bottom: 0;
-        right: -20rem;
         height: 100vh;
         z-index: 10;
+        display: none;
     }
 } 

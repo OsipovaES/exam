@@ -3,8 +3,8 @@
     display: none;
     flex-direction: column;
     gap: 4px;
-    cursor: pointer;
     transition: .3s;
+    cursor: pointer;
     @include media-tablet {
       display: flex;
       z-index: 20;
@@ -25,4 +25,5 @@
 
 .burger:checked ~ .header__nav{
     right: 0;
+    display: inline;
   }
