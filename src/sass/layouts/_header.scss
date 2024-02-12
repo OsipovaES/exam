@@ -15,7 +15,7 @@
     }
     &__link {
         @include flex();
-        gap: 2rem;
+        gap: 5rem;
         &_ico {
             color: rgb(6, 2, 2);
             @include font($size: 1.5rem, $weight:600, $height: 160%); 

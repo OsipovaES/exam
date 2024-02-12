@@ -499,7 +499,7 @@ h4 {
 }
 .burger__line {
   display: block;
-  background-color: rgb(255, 101, 101);
+  background-color: rgb(71, 41, 41);
   border-radius: 0.5rem;
   width: 2.5rem;
   height: 0.3rem;
@@ -549,7 +549,7 @@ h4 {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 5rem;
 }
 .header__link_ico {
   color: rgb(6, 2, 2);
@@ -567,7 +567,7 @@ h4 {
   gap: 1rem;
 }
 .header__link_ico:hover {
-  text-decoration: underline rgb(255, 101, 101) 0.3rem;
+  text-decoration: underline rgb(71, 41, 41) 0.3rem;
   text-underline-offset: 1rem;
   transition: all 0.3s ease-out;
 }
@@ -590,7 +590,7 @@ h4 {
   color: rgb(6, 2, 2);
 }
 .nav__link:hover {
-  text-decoration: underline rgb(255, 101, 101) 0.3rem;
+  text-decoration: underline rgb(71, 41, 41) 0.3rem;
   text-underline-offset: 1rem;
   transition: all 0.3s ease-out;
 }
@@ -664,14 +664,14 @@ h4 {
   }
 }
 .main__list {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
 .main__image {
   border-radius: 1rem;
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 @media (max-width: 768px) {
@@ -732,11 +732,11 @@ h4 {
   }
 }
 
-.teachers {
+.designers {
   background-color: rgb(252, 251, 245);
   padding: 4rem;
 }
-.teachers__wrapper {
+.designers__wrapper {
   display: flex;
   align-items: center;
   text-align: left;
@@ -746,7 +746,7 @@ h4 {
   gap: 3rem;
 }
 
-.teacher {
+.designer {
   display: flex;
   align-items: flex-start;
   text-align: left;
@@ -755,7 +755,7 @@ h4 {
   flex-wrap: wrap;
   gap: 3rem;
 }
-.teacher__block {
+.designer__block {
   display: flex;
   align-items: center;
   text-align: left;
@@ -765,31 +765,31 @@ h4 {
   background-color: rgb(255, 227, 216);
   padding: 2rem;
   border-radius: 1rem;
-  height: 53rem;
+  height: 60rem;
   max-width: 40rem;
   width: 100%;
 }
 @media (max-width: 768px) {
-  .teacher__block {
+  .designer__block {
     height: auto;
   }
 }
-.teacher__item {
+.designer__item {
   max-width: 20rem;
   height: 25rem;
 }
-.teacher__image {
+.designer__image {
   object-fit: contain;
   max-width: 20rem;
   max-height: 25rem;
   border-radius: 1rem;
 }
-.teacher__text {
+.designer__text {
   margin-bottom: auto;
   text-align: justify;
 }
 @media (max-width: 376px) {
-  .teacher__text {
+  .designer__text {
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
@@ -805,7 +805,7 @@ h4 {
   align-items: center;
   text-align: left;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 3rem;
 }
@@ -821,7 +821,7 @@ h4 {
   padding: 1rem;
   gap: 2rem;
 }
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   .news__item {
     display: flex;
     align-items: center;
@@ -846,15 +846,10 @@ h4 {
   }
 }
 .news__image {
-  max-width: 40rem;
+  max-width: 50rem;
   border-radius: 1rem;
 }
 @media (max-width: 768px) {
-  .news__image {
-    width: 50%;
-  }
-}
-@media (max-width: 376px) {
   .news__image {
     width: 90%;
   }
@@ -901,7 +896,7 @@ h4 {
   color: rgb(6, 2, 2);
 }
 .footer-nav__link:hover {
-  color: rgb(255, 101, 101);
+  color: rgb(71, 41, 41);
   transition: all 0.3s ease-out;
 }
 
@@ -1000,7 +995,12 @@ h4 {
   border-radius: 1rem;
   padding: 4rem;
   gap: 2rem;
-  height: 63rem;
+  height: 60rem;
+}
+@media (max-width: 768px) {
+  .courses__item {
+    padding: 2rem;
+  }
 }
 @media (max-width: 376px) {
   .courses__item {
@@ -1120,6 +1120,64 @@ h4 {
 @media (max-width: 768px) {
   .contacts__image {
     width: 80%;
+  }
+}
+
+.works {
+  padding: 4rem;
+}
+.works__wrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.works__item {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 237, 231);
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .works__item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+.works__text {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+@media (max-width: 376px) {
+  .works__text {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+.works__image {
+  max-width: 50rem;
+  border-radius: 1rem;
+}
+@media (max-width: 768px) {
+  .works__image {
+    width: 90%;
   }
 }
 

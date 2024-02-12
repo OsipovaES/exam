@@ -1,0 +1,30 @@
+.works {
+    padding: 4rem;
+    &__wrapper {
+        @include flex($flex-dir: column);
+        gap: 3rem;
+    }
+    &__item {
+        @include flex($flex-wrap: nowrap);
+        background-color: $color-card;
+        border-radius: 1rem;
+        padding: 1rem;
+        gap: 2rem;
+        @include media-tablet {
+            @include flex($flex-dir: column);
+        }
+    }
+    &__text {
+        @include font($size: 1.8rem, $height: 150%);
+        @include media-mobile {
+            @include font($size: 1.5rem, $height: 150%);
+        }
+    }
+    &__image {
+        max-width: 50rem;
+        border-radius: 1rem;
+        @include media-tablet {
+            width: 90%;
+        }
+    }
+}

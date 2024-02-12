@@ -1,0 +1,43 @@
+.designers {
+    background-color: $color-light;
+    padding: 4rem;
+    &__wrapper {
+        @include flex($flex-dir: column, $justify: flex-start);
+        gap: 3rem;
+    }
+}
+
+.designer {
+    @include flex($i-align: flex-start);
+    gap: 3rem;
+    &__block {
+        @include flex($flex-dir: column);
+        background-color: $color-primary;
+        padding: 2rem;
+        border-radius: 1rem;
+        height: 60rem; 
+        max-width: 40rem;
+        width: 100%;
+        @include media-tablet {
+            height: auto;
+        }
+    }
+    &__item {
+        max-width: 20rem;
+        height: 25rem; 
+    }
+    &__image {
+        object-fit: contain;
+        max-width: 20rem;
+        max-height: 25rem;
+        border-radius: 1rem;
+    }
+    &__text {
+        margin-bottom: auto;
+        text-align: justify;
+        @include media-mobile {
+            @include font($size: 1.5rem, $height: 150%);
+        }
+    }
+}
+
